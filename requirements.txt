@@ -1,0 +1,8 @@
+# Bibliotecas do dashboard (testado com dash 3.0.4 / plotly 6.0.1 / pandas 2.2.3
+# e com dash 4.5.0 / plotly 7.1.0 / pandas 3.0.5)
+dash>=3.0
+plotly>=6.0
+pandas>=2.0
+
+# Só é usado para hospedar na web (ex.: Render). Não atrapalha a instalação local.
+gunicorn>=21.2
